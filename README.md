@@ -128,20 +128,20 @@ The InSync Tech production system augments the six-rubric heuristics with
 LLM-judged checks + embedding-similarity scoring; the bench is at
 [`iansteitz1-eng/fellows-2026`](https://github.com/iansteitz1-eng/fellows-2026).
 
-As of the time of writing the production substrate logs ~40,000 splats per
-month across eight agent harnesses. The live splat count is visible on every
-landing page at [insynctech.io](https://insynctech.io).
+As of May 2026 the production substrate had logged ~40,000 splats across
+eight agent harnesses (61,000+ lifetime by July 2026). The whitepaper set is
+published at [insynctech.io/research](https://insynctech.io/research/).
 
 ## Where to learn more
 
-- **The Aria Thesis White Paper v0** — the full doctrine, at
-  [insynctech.io/docs](https://insynctech.io/docs/aria-thesis-white-paper.html).
+- **The Aria Thesis White Paper** — the full doctrine, at
+  [insynctech.io/research/whitepapers](https://insynctech.io/research/whitepapers).
   Markdown source mirrored at [`iansteitz1-eng/aria-thesis`](https://github.com/iansteitz1-eng/aria-thesis).
 - **The Fellows 2026 research project** — empirical evaluation of splat-based
   oversight against Anthropic's published agentic-misalignment scenarios:
   [`iansteitz1-eng/fellows-2026`](https://github.com/iansteitz1-eng/fellows-2026).
 - **DVE V2** — the engineering practice that produced this substrate:
-  co-authored with Stephen Harbin.
+  [insynctech.io/research/dve-v2](https://insynctech.io/research/dve-v2).
 
 ## License
 
@@ -151,3 +151,14 @@ Apache 2.0. See [LICENSE](LICENSE).
 
 [Ian Steitz](https://insynctech.io) · InSync Tech, Inc. ·
 ian@insynctech.io
+
+---
+
+## Evolution note — 2026-07-28
+
+These documents are dated artifacts of a system that keeps evolving. A
+2026-07-28 accuracy pass corrected links (the paper library moved to
+[insynctech.io/research](https://insynctech.io/research/)), restated metrics as
+dated snapshots, and aligned naming with current branding (the product is
+**Vox Ordo**; **Aria** is the agent). The doctrinal core is unchanged. Where a
+claim here differs from the live research library, the library is current truth.

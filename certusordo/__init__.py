@@ -21,7 +21,7 @@ Quick start:
     print(splat.composite_score, splat.co_gate)
 
 See examples/score_an_action.py for an end-to-end runnable demo, and the
-Aria Thesis White Paper at insynctech.io/docs for the full doctrine.
+Aria Thesis White Paper at insynctech.io/research for the full doctrine.
 
 Author: Ian Steitz · InSync Tech, Inc.
 License: Apache-2.0
