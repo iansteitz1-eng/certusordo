@@ -23,7 +23,7 @@ Quick start:
 See examples/score_an_action.py for an end-to-end runnable demo, and the
 Aria Thesis White Paper at insynctech.io/docs for the full doctrine.
 
-Author: Ian Steitz · InSync Tech, Inc.
+Author: Ian Steitz · InsyncTech
 License: Apache-2.0
 """
 

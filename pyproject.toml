@@ -42,12 +42,12 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://certusordo.dev"
-Documentation = "https://docs.certusordo.dev"
+Homepage = "https://insynctech.io"
+Documentation = "https://github.com/iansteitz1-eng/aria-thesis"
 Repository = "https://github.com/iansteitz1-eng/certusordo"
 Issues = "https://github.com/iansteitz1-eng/certusordo/issues"
-"InSync Tech" = "https://insynctech.io"
-"Aria Thesis" = "https://insynctech.io/docs/aria-thesis-white-paper.html"
+"InsyncTech" = "https://insynctech.io"
+"Aria Thesis" = "https://github.com/iansteitz1-eng/aria-thesis"
 
 [tool.setuptools.packages.find]
 where = ["."]
