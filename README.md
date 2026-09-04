@@ -3,12 +3,11 @@
 > Structured action receipts with hash-chained six-rubric composite scoring,
 > for AI agent oversight at production scale.
 
-[![PyPI](https://img.shields.io/pypi/v/certusordo.svg)](https://pypi.org/project/certusordo/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 
 `certusordo` is the open-source core of the **CertusOrdo doctrine** that
-underpins the InSync Tech AI agent platform. Every state-changing AI action
+underpins the InsyncTech AI agent platform. Every state-changing AI action
 in the production system emits a **splat** — a structured, scored, hash-chained
 receipt — at the moment of execution. This package is the substrate.
 
@@ -19,9 +18,15 @@ control monitoring. Transcripts are the wrong unit. Splats are.
 
 ## Install
 
+The package is not on PyPI yet (a PyPI release is planned). Install from a clone:
+
 ```bash
-pip install certusordo
+git clone https://github.com/iansteitz1-eng/certusordo
+cd certusordo
+pip install -e .
 ```
+
+Requires Python 3.10 or newer. No runtime dependencies.
 
 ## 60-second demo
 
@@ -38,7 +43,7 @@ splat = emit(
 )
 
 print(splat.co_gate, splat.composite_score)
-# GREEN 0.917
+# GREEN 0.84
 ```
 
 Or run the bundled example:
@@ -60,7 +65,7 @@ afterward — does not scale and is brittle to subtle misalignment.
 
 - **Per-action**, not per-session
 - **At emit time**, not post-hoc
-- **Structured**, not free-form
+- **Structured**, not loose text
 - **Hash-chained**, so tampering is detectable
 - **Scored synchronously**, so the gate can fire before downstream effects
 
@@ -124,7 +129,7 @@ pytest
 ## Production deployment
 
 The package as published is the **pattern**, not the full production scorer.
-The InSync Tech production system augments the six-rubric heuristics with
+The InsyncTech production system augments the six-rubric heuristics with
 LLM-judged checks + embedding-similarity scoring; the bench is at
 [`iansteitz1-eng/fellows-2026`](https://github.com/iansteitz1-eng/fellows-2026).
 
@@ -134,22 +139,24 @@ published at [insynctech.io/research](https://insynctech.io/research/).
 
 ## Where to learn more
 
-- **The Aria Thesis White Paper** — the full doctrine, at
-  [insynctech.io/research/whitepapers](https://insynctech.io/research/whitepapers).
-  Markdown source mirrored at [`iansteitz1-eng/aria-thesis`](https://github.com/iansteitz1-eng/aria-thesis).
+- **The Aria Thesis White Paper v0** — the full doctrine; markdown source at
+  [`iansteitz1-eng/aria-thesis`](https://github.com/iansteitz1-eng/aria-thesis).
 - **The Fellows 2026 research project** — empirical evaluation of splat-based
   oversight against Anthropic's published agentic-misalignment scenarios:
   [`iansteitz1-eng/fellows-2026`](https://github.com/iansteitz1-eng/fellows-2026).
-- **DVE V2** — the engineering practice that produced this substrate:
-  [insynctech.io/research/dve-v2](https://insynctech.io/research/dve-v2).
+- **DVE V2** — the engineering practice that produced this substrate.
+
+## Support
+
+support@insynctech.io, or open an issue on this repo.
 
 ## License
 
-Apache 2.0. See [LICENSE](LICENSE).
+Apache-2.0. See [LICENSE](LICENSE).
 
 ## Author
 
-[Ian Steitz](https://insynctech.io) · InSync Tech, Inc. ·
+[Ian Steitz](https://insynctech.io) · InsyncTech ·
 ian@insynctech.io
 
 ---
